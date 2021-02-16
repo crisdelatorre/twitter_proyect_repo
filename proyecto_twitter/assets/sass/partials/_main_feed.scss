@@ -1,0 +1,33 @@
+.main_feed {
+    border-right: 1px solid $lines_blue;
+    border-left: 1px solid $lines_blue;
+    margin-right: 1rem;
+
+    .top_section {
+        border-bottom: 1px solid $lines_blue;
+        padding: .5rem;
+        margin-bottom: 1rem;
+        padding: 1rem;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        font-size: 1.2rem;
+        font-weight: bold;
+
+        span{
+            color: $corp_blue;
+        }
+
+    }
+    .create_tweet{
+        border-bottom: 1px solid $lines_blue;
+    }
+
+    .tweet_component{
+        border-bottom: 1px solid $lines_blue;
+
+    }
+
+}

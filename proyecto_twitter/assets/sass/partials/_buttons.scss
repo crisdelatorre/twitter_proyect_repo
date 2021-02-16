@@ -1,0 +1,23 @@
+.button_component{
+    background-color: $corp_blue;
+    border: 0;
+    border-radius: 20px;
+    padding: .5rem 1.5rem;
+    color: $corp_white;
+    font-weight: bold;
+    width: 100%;
+
+    &:hover{
+        background-color: darken($corp_blue, 20);
+
+    }
+
+    &.reset_b{
+        border: 1px solid $corp_blue;
+        background-color: transparent;
+        
+        &:hover{
+            background-color: $corp_blue;
+        }
+    }
+}

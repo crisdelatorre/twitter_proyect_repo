@@ -1,0 +1,106 @@
+.tweet_component {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 1rem;
+
+    .user_pic {
+        height: 40px;
+        width: 40px;
+        margin-right: .5rem;
+
+        img {
+            @include image_cover;
+            border-radius: 50%;
+
+        }
+    }
+
+
+    .form_info {
+        width: 95%;
+        .tweet_write {
+            background-color: transparent;
+            color: inherit;
+            width: 100%;
+
+            border: 0;
+            outline: 0;
+            min-height: 6rem;
+
+            resize: none;
+            font-size: 1.1rem;
+            font-weight: 300;
+
+        }
+
+        .form_bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+            .attach {
+
+                a{
+                    color: $corp_blue;
+                    margin-right: .2rem;
+                }
+            }
+
+            .send_tweet {}
+        }
+    }
+
+    .tweet_content{
+        width: 95%;
+
+        .tweet_top{
+            display: flex;
+
+            font-size: .9rem;
+
+            .account_name{
+                font-weight: bold;
+                margin-right: .2rem;
+
+            }
+            .user_name{
+                color: $light_grey;
+                font-weight: 300;
+                margin-right: .2rem;
+
+            }
+            .time_posted{
+                color: $light_grey;
+                font-weight: 300;
+                margin-right: .2rem;
+
+            }
+            .delete{
+                a{
+                    color: $light_grey;
+                }
+            }
+        }
+        .tweet_info{}
+        .tweet_reactions{
+            display: flex;
+            font-size: .9rem;
+            font-weight: 300;
+            color: $light_grey;
+            margin-top: .5rem;
+
+            .comments{
+                margin-right: .4rem;
+            }
+            .retweets{
+                margin-right: .4rem;
+            }
+            .likes{
+                margin-right: .4rem;
+            }
+
+        }
+
+    }
+}

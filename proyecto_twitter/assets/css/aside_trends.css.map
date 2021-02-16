@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,OAAO,CAAA;EACH,UAAU,EAAE,IAAI;EAChB,OAAO,EAAE,MAAM;CAgBlB;;AAED,AAAA,OAAO,CAAA;EACH,gBAAgB,EAAE,OAAO;CAQ5B;;AATD,AAKI,OALG,CAKH,UAAU,CAAA;EACN,gBAAgB,EAAE,WAAW;EAC7B,MAAM,EAAE,IAAI;CACf",
+    "sources": [
+        "../sass/partials/aside_trends.scss"
+    ],
+    "names": [],
+    "file": "aside_trends.css"
+}

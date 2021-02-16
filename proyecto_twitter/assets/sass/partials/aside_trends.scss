@@ -1,0 +1,98 @@
+.trends {
+    margin-top: 1rem;
+    padding: 0 1rem;
+
+    .search {}
+
+    .trends_list {}
+
+    .amount {}
+
+    .reset {}
+}
+
+.search {
+    background-color: #192734;
+    border-radius: 2rem;
+    padding: .5rem 1rem;
+
+    .fa {
+        color: $light_grey;
+    }
+
+    .searchbox {
+        background-color: transparent;
+        border: none;
+        color: $light_grey;
+    }
+}
+
+.trends_list {
+    background-color: #192734;
+    border-radius: 1rem;
+    margin-top: .5rem;
+
+
+    h1 {
+        font-size: 1.2rem;
+        padding: .5rem 1rem;
+        margin-bottom: 0;
+
+    }
+
+    .trend_item {
+        padding: .5rem 1rem;
+        border-top: 1px solid $lines_blue;
+        display: flex;
+        justify-content: space-between;
+
+        .trend_info {
+
+
+            .trend_type {
+                font-size: .8rem;
+                font-weight: 300;
+                color: $light_grey;
+            }
+
+            .hashtag {
+                font-size: .9rem;
+                font-weight: bold;
+            }
+
+            .trend_tweets {
+                font-size: .8rem;
+                font-weight: 300;
+                color: $light_grey;
+            }
+
+        }
+
+        .fa {
+            color: $light_grey;
+        }
+    }
+}
+
+.tl_info {
+    background-color: #192734;
+    border-radius: 1rem;
+    margin-top: .5rem;
+
+
+    h1 {
+        font-size: 1.2rem;
+        padding: .5rem 1rem;
+        margin-bottom: 0;
+        border-bottom: 1px solid $lines_blue;
+
+    }
+
+    .amount {
+        padding: .5rem 1rem;
+    }
+
+    .reset {
+        padding: .5rem 1rem;
+    }
+}

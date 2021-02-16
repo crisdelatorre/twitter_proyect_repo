@@ -1,0 +1,23 @@
+@import 'lib/vars';
+@import 'lib/mixins';
+@import 'lib/reboot';
+@import 'lib/fontawesome/font-awesome';
+@import 'lib/fontface';
+@import 'lib/keyframes';
+
+
+
+* {
+  // border: 1px solid pink;
+}
+
+@import 'partials/layout';
+@import 'partials/aside_menu';
+@import 'partials/main_feed';
+@import 'partials/aside_trends.scss';
+@import 'partials/buttons';
+@import 'partials/tweets';
+@import 'partials/modal_tweet';
+
+
+
